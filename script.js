@@ -1,6 +1,7 @@
-const team = [{
+const team = [
+    {
         name: "Julien",
-        occupation: "Dev back-end"
+        occupation: "Dev back-end"  
     },
     {
         name: "Margaux",

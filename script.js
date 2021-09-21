@@ -3,6 +3,10 @@ const team = [
         name: "Julien",
         occupation: "Dev back-end"  
     },
+    {
+        name: "Margaux",
+        occupation: "Trop Belle"  
+    },
 ]
 
 let list = document.querySelector('#team')

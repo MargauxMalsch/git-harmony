@@ -5,7 +5,11 @@ const team = [
     },
     {
         name: "Margaux",
-        occupation: "Trop Belle"  
+        occupation: "Trop Belle" 
+    },
+    {
+        name: "Nico",
+        occupation: "Futur ultras 🔴🔵"
     },
 ]
 

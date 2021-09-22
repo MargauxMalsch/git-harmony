@@ -45,6 +45,11 @@ document.querySelector('.new-submit').addEventListener('click', (e) => {
 
 })
 
+
+document.getElementById('team').addEventListener('click', function(){
+  this.style.fontSize = '32px';
+});
+
 document.getElementById("picture").addEventListener("click", function () {
    this.src = "img/pic2.jpg"
 });
@@ -57,4 +62,3 @@ function modifCss() {
 }
 
 document.getElementById('header').addEventListener('click', modifCss);
-

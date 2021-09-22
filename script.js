@@ -45,6 +45,10 @@ document.querySelector('.new-submit').addEventListener('click', (e) => {
 
 })
 
+document.getElementById("picture").addEventListener("click", function () {
+   this.src = "img/pic2.jpg"
+});
+
 function modifCss() {
     var div = document.getElementById('header');
     console.log(div);
@@ -53,3 +57,4 @@ function modifCss() {
 }
 
 document.getElementById('header').addEventListener('click', modifCss);
+

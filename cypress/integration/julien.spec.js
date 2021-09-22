@@ -19,6 +19,5 @@ describe('Test de Julien', () => {
         cy.get('.new-occupation').type('Testing bot')
         cy.get('.new-submit').click()
         cy.get('li').last().should('have.text', "Cypress - Testing bot")
-
     })
 })

@@ -45,3 +45,8 @@ document.querySelector('.new-submit').addEventListener('click', (e) => {
     }
 
 })
+
+document.getElementById('team').addEventListener('click', function(){
+this.style.fontSize = '2rem';
+
+});

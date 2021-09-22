@@ -11,6 +11,7 @@ describe('Test de Margaux', () => {
     })
     it('Agrandir le texte', () => {
         cy.get('#team').click()
+        cy.get('li').last().should('have.css', "font-size" , "2rem")
     })
     
 })
